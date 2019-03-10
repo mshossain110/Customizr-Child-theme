@@ -1,0 +1,98 @@
+/*
+Theme Name:     Customizr Child
+* Theme URI:    https://presscustomizr.com/customizr
+Description:    A child theme for the Customizr WordPress theme. This child theme simply includes 2 files : style.css to add your custom css and functions.php where you can extend Customizr's core code. In order to keep your code as clean and flexible as possible, try to use Customizr's hooks API for your customizations. Do something awesome and have fun !
+Author:         Shahadat Hossain
+Author URI:     http://mshossain.me
+Template:       customizr
+Version:        1.0.0
+* License: GNU General Public License v2.0 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+/**
+ * 11.2 - Section About
+ */
+
+ .section-about {
+    background-image: url(http://mshossain.test/wp-content/uploads/2019/03/web-1935737_1920.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 0px;
+    position: relative;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ }
+ .section-about .section-box-outer {
+    padding: 68px 0;
+}
+
+.section-about .section-box-outer .section-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #FFF;
+}
+.section-about .section-box-outer .section-box .profile {
+    padding: 30px;
+}
+
+.section-about  .profile-footer {
+    background: #901616;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-about .profile-footer .social {
+    display: flex;
+    justify-content: space-around;
+}
+.section-about  .profile-footer .social a {
+    color: #FFF;
+    font-size: 24px;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 6px;
+    text-decoration: none;
+}
+.section-about .profile-footer .resume-btn a.btn {
+    background: transparent;
+    color: #FFF;
+    text-shadow: none;
+    border-color: #FFF;
+}
+.section-about .profile-footer .resume-btn a.btn:hover {
+    background: #fff;
+    color: #901616;
+}
+   /*Social icon*/
+   a.icon-feed:hover       {color:#DC622C;}    /* Change to desired color */
+   a.icon-twitter:hover    {color:#00B6F1;}    /* Change to desired color */
+   a.icon-facebook:hover   {color:#3B5998;}    /* Change to desired color */
+   a.icon-google:hover     {color:#C20806;}    /* Change to desired color */
+   a.icon-instagram:hover  {color:#2C6A93;}    /* Change to desired color */
+   a.icon-wordpress:hover  {color:#04769C;}    /* Change to desired color */
+   a.icon-youtube:hover    {color:#C31A1E;}    /* Change to desired color */
+   a.icon-pinterest:hover  {color:#C91517;}    /* Change to desired color */
+   a.icon-github:hover     {color:#040204;}    /* Change to desired color */
+   a.icon-dribbble:hover   {color:#333333;}    /* Change to desired color */
+   a.icon-linkedin:hover   {color:#04669A;}    /* Change to desired color */
+   
+   footer#footer .colophon a.icon-feed       {color:#DC622C;}    /* Change to desired color */
+   footer#footer .colophon a.icon-twitter    {color:#00B6F1;}    /* Change to desired color */
+   footer#footer .colophon a.icon-facebook   {color:#3B5998;}    /* Change to desired color */
+   footer#footer .colophon a.icon-google     {color:#C20806;}    /* Change to desired color */
+   footer#footer .colophon a.icon-instagram  {color:#2C6A93;}    /* Change to desired color */
+   footer#footer .colophon a.icon-wordpress  {color:#04769C;}    /* Change to desired color */
+   footer#footer .colophon a.icon-youtube    {color:#C31A1E;}    /* Change to desired color */
+   footer#footer .colophon a.icon-pinterest  {color:#C91517;}    /* Change to desired color */
+   footer#footer .colophon a.icon-github     {color:#040204;}    /* Change to desired color */
+   footer#footer .colophon a.icon-dribbble   {color:#333333;}    /* Change to desired color */
+   footer#footer .colophon a.icon-linkedin   {color:#04669A;}    /* Change to desired color */
+   /*Remember to add the Header (.navbar-inner ) and/or Footer (footer#footer .colophon ) prefix before the a.icon or it will default to the Header icons only.*/
+   
